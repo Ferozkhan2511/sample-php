@@ -17,6 +17,9 @@
             <directory suffix=".php">./app</directory>
         </include>
     </coverage>
+    <report>
+        <html outputDirectory="/opt/test"/>
+</report>
     <logging>
         <junit outputFile="tests-report.xml"/>
     </logging>
