@@ -16,13 +16,7 @@
         <include>
             <directory suffix=".php">./app</directory>
         </include>
-    </coverage>
-    <coverage processUncoveredFiles="true">
-        <include>
-            <directory suffix=".php">./app</directory>
-        </include>
         <exclude>
-            <exclude>
         <directory suffix=".php">./app/Http</directory>
         <!-- <file>src/example.php</file> -->
         </exclude>
