@@ -57,6 +57,17 @@
         "preferred-install": 
         "dist",
         "sort-packages": true,
+        "secure-http" : false
+    },{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://localhost:8081/artifactory/api/composer/composer-local"},
+        { 
+            "packagist": false
+        }
+    ]
+}
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }
