@@ -63,3 +63,12 @@
     "minimum-stability": "dev",
     "prefer-stable": true
 }
+{
+    "repositories": [
+        {"type": "composer", "url": "https://karthik8.jfrog.io/artifactory/api/composer/php-php-local"},
+        {"packagist": false}
+    ]
+}
+"config": {
+   "secure-http" : false
+}
