@@ -52,15 +52,6 @@
             "dont-discover": []
         }
     },
-    {
-    "repositories": [
-        {"type": "composer", "url": "https://karthik8.jfrog.io/artifactory/api/composer/php-php-local"},
-        {"packagist": false}
-    ]
-}
-"config": {
-   "secure-http" : false
-}
     "config": {
         "optimize-autoloader": true,
         "preferred-install": 
