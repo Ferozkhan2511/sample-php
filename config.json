@@ -1,0 +1,9 @@
+{
+    "repositories": [
+        {"type": "composer", "url": "https://sridhar4.jfrog.io/artifactory/api/composer/new-php-local"},
+        {"packagist": false}
+    ]
+}
+"config": {
+   "secure-http" : false
+}
