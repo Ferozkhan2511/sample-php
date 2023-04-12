@@ -18,7 +18,7 @@
         </include>
         <exclude>
         <directory suffix=".php">./app/Http</directory>
-        <!-- <file>src/example.php</file> -->
+        <!-- <file>src/example.php</file> 
         </exclude>
     </coverage>
     <report>
